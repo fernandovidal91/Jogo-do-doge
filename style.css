@@ -1,0 +1,93 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F8F8F8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.console {
+    width: 50vh;
+    height: 70vh;
+    
+    margin-right: 10px;
+}
+
+.placar {
+    width: 50vh;
+    height: 5vh;
+
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+    text-align: right;
+}
+
+.placar h5 {
+    width: 100%;
+    height: 5vh;
+
+    background-color: #F8F8F8;
+}
+
+.posicoes {
+    width: calc(100% - 25px);
+    height: calc(65vh - 25px);
+
+    padding: 10px;
+
+    background-color: #FFFFFF;
+
+    border: 5px solid #e9e7e7;
+
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+
+    overflow-y: scroll;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.campo {
+    width: calc(70vh + 2px);
+    height: calc(70vh + 2px);
+    background-color: #ffffff;
+
+    border: 5px solid #e9e7e7;
+}
+
+.corpo {
+    float: left;
+}
+
+.corpo .cabeca {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.corpo .cabeca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comida {
+    background: url("img/osso.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
